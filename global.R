@@ -41,7 +41,7 @@ Combine_df <- Combine_df %>%
   filter(na_count<2)
 
 # Impute missing data using knn
-Combine_df <- kNN(Combine_df, k = 5)
+# Combine_df <- kNN(Combine_df, k = 5)
 
 # Exclude impute label columns
 Combine_df <- select(Combine_df, -contains("_imp"))

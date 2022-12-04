@@ -5,3 +5,5 @@
 *.RProj
 .DS_Store
 .idea
+packrat/lib*/
+packrat/src/*
