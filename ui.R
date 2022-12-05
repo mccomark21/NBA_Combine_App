@@ -1,4 +1,4 @@
-source("utility.R")
+source("./utilities/utility.R")
 
 ui <- dashboardPage(dashboardHeader(title = "NBA Combine Performance"),
                     dashboardSidebar(),
